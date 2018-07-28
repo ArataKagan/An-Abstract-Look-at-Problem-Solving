@@ -1,0 +1,7 @@
+1. Based on the fact that "Loading product onto truck." is not printed but
+'Product packaged for Next Day.' is printed, I can eliminate the issue to the
+loadOnTraffic function. The issue is that there is no parenthesis for the
+'loadOnTraffic' function inside of the order function.
+
+2. Inside of the order function, there is no argument passed into the
+product.package(). product.package(shippingType) will solve the issue.
